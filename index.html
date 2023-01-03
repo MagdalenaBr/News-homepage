@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Frontend Mentor | News homepage</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+  <script src="./script.js" defer></script>
+</head>
+
+<body>
+
+  <header>
+    <nav class='main-nav'>
+      <img class='img-logo' src='./assets/images/logo.svg' alt='logo'>
+      <button class="mobile-nav-toggle"></button>
+      <ul data-visible='false' class='main-nav-list'>
+        <li><a class='main-nav-link' href='#'>Home</a></li>
+        <li><a class='main-nav-link' href='#'>New</a></li>
+        <li><a class='main-nav-link' href='#'>Popular</a></li>
+        <li><a class='main-nav-link' href='#'>Trending</a></li>
+        <li><a class='main-nav-link' href='#'>Categories</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class='grid-container'>
+
+    <section class='section-one'>
+      <img class='section-one-img img-full' src='./assets/images/image-web-3-desktop.jpg'
+        alt='building blocks of various shapes'>
+      <img class='section-one-img img-mobile' src='./assets/images/image-web-3-mobile.jpg'
+        alt='building blocks of various shapes'>
+      <h1>The Bright Future of Web 3.0?</h1>
+      <p>We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of
+        the people.
+        But is it really fulfilling its promise?</p>
+      <button>Read more</button>
+    </section>
+
+    <section class='section-two'>
+      <h2 class='section-two-title'>New</h2>
+
+      <div class='news'>
+        <a href='#'>
+          <h3>Hydrogen VS Electric Cars</h3>
+        </a>
+        <p> Will hydrogen-fueled cars ever catch up to EVs?</p>
+      </div>
+      <div class='horizontal-line'></div>
+
+      <div class='news'>
+        <a href='#'>
+          <h3>The Downsides of AI Artistry</h3>
+        </a>
+        <p>What are the possible adverse effects of on-demand AI image generation?</p>
+      </div>
+
+      <div class='horizontal-line'></div>
+
+      <div class='news'>
+        <a href='#'>
+          <h3>Is VC Funding Drying Up?</h3>
+        </a>
+        <p>Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+      </div>
+    </section>
+
+    <section class='section-three'>
+      
+      <div>
+        <img class='section-three-img' src='./assets/images/image-retro-pcs.jpg' alt='retro PC'>
+        <p class='section-three-number'>01</p>
+        <a href='#'>
+          <h3>Reviving Retro PCs</h3>
+        </a>
+        <p class='text'>What happens when old PCs are given modern upgrades?</p>
+      </div>
+
+      <div>
+        <img class='section-three-img' src='./assets/images/image-top-laptops.jpg' alt='laptop keyboard'>
+        <p class='section-three-number'>02</p>
+        <a href='#'>
+          <h3>Top 10 Laptops of 2022</h3>
+        </a>
+
+        <p class='text'>Our best picks for various needs and budgets.</p>
+      </div>
+
+      <div>
+        <img class='section-three-img' src='./assets/images/image-gaming-growth.jpg' alt='Playstation pad'>
+        <p class='section-three-number'>03</p>
+        <a href='#'>
+          <h3>The Growth of Gaming</h3>
+        </a>
+
+        <p class='text'>How the pandemic has sparked fresh opportunities.</p>
+      </div>
+    </section>
+  </main>
+
+
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Magdalena Broniszewska</a>.
+  </div>
+
+</body>
+
+</html>
