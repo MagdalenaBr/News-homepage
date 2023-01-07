@@ -7,9 +7,9 @@ navToggle.addEventListener("click", () => {
 	if (visibility === "false") {
 		navList.setAttribute("data-visible", true);
 		navToggle.style.backgroundImage =
-			'url("./assets/images/icon-menu-close.svg")';
+			'url("/assets/images/icon-menu-close.svg")';
 	} else if (visibility === "true") {
 		navList.setAttribute("data-visible", false);
-		navToggle.style.backgroundImage = 'url("./assets/images/icon-menu.svg")';
+		navToggle.style.backgroundImage = 'url("/assets/images/icon-menu.svg")';
 	}
 });
